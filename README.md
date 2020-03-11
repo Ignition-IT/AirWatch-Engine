@@ -13,10 +13,10 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 	+ __Who has access to the app:__ _Anyone, even anonymous_
 
 
-3. Copy the web app URL and paste it into the "URL" comment at the top of __1. Handler.gs__ for later use
+3. Copy the web app URL and paste it into the `//URL` comment at the top of __1. Handler.gs__ for later use
 
 
-4. Navigate to __File__ > __Project properties__ > __Script properties__ and set `scriptSecret` to a random password. Replace _"TOKEN"_ in the "URL" comment with this password
+4. Navigate to __File__ > __Project properties__ > __Script properties__ and set `scriptSecret` to a random password. Replace `TOKEN` in the `//URL` comment with this password
 
 
 5. Go to https://api.slack.com/apps and create a new app. Set an app name, description, color, and icon (use __airwatch_square.png__ in the __Images__ folder if you'd like)
@@ -31,16 +31,16 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 8. Navigate to __Interactive Components__ and turn on __Interactivity__
 
 
-9. Copy your Web App URL from Step 3. and set the __app=__ to `slack` and the __type=__ to `interaction`, then paste the link into the __Request URL__ box
+9. Copy your Web App URL from Step 3. and set the `app=` to `slack` and the `type=` to `interaction`, then paste the link into the __Request URL__ box
 
 
-10. Under __Select Menus__, paste the same URL into the __Options Load URL__ but change __type=__ to `menu`. Click __Save Changes__
+10. Under __Select Menus__, paste the same URL into the __Options Load URL__ but change `type=` to `menu`. Click __Save Changes__
 
 
 11. Navigate to __Event Subscriptions__ and set __Enable Events__ to _ON_
 
 
-12. In the __Request URL__ box, paste the same link as Steps 9. and 10. but change the __type=__ to _event_. Slack will then verify that your script succesfully returns the challenge token (see "//Slack one-time URL verification" section, around line 160 of __1. Handler.gs__)
+12. In the __Request URL__ box, paste the same link as Steps 9. and 10. but change the `type=` to `event`. Slack will then verify that your script succesfully returns the challenge token (see "//Slack one-time URL verification" section, around line 160 of __1. Handler.gs__)
 
 
 13. Open the __Subscribe to bot events__ section and add __app_home_opened__. Click __Save Changes__
