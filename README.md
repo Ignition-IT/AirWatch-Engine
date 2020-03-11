@@ -1,7 +1,7 @@
 # AirWatch-Engine
 Slack bot to control AirWatch via API. Current function includes changing the enrollment user on any computer.
 
-<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/app_home.png" alt="app_home">
+![app_home](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/app_home.png)
 
 ## SETUP: ##
 
@@ -14,12 +14,16 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 	+ __Who has access to the app:__ _Anyone, even anonymous_
   
 
-<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/deploy_as_web_app.png" alt="deploy_as_web_app">  
-
-<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/set_web_app_options.png" alt="set_web_app_options" width="300">
+![deploy_as_web_app](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/deploy_as_web_app.png)
 
 
-3. Copy the web app URL and paste it into the `//URL` comment at the top of __1. Handler.gs__ for later use
+![set_web_app_options](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/set_web_app_options.png)
+
+
+3. Copy the web app URL and paste it into the `//URL` comment at the top of __1. Handler.gs__ for later use  
+
+
+![copy_web_app_url](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/copy_web_app_url.png)  
 
 
 4. Navigate to __File__ > __Project properties__ > __Script properties__ and set `scriptSecret` to a random password. Replace `TOKEN` in the `//URL` comment with this password
