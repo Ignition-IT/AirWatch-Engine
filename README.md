@@ -3,6 +3,13 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 
 ![app_home](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/app_home.png)
 
+![select_client](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/select_client.png)
+
+![select_device_and_user](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/select_device_and_user.png)
+
+![confimation](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/confimation.png)
+
+
 ## SETUP: ##
 
 1. Make a copy of this Google Sheet with the GAS project attached: https://docs.google.com/spreadsheets/d/1DkIUSqdDM5fnHMG7zd7hO0EVUcaw6z9AzpL0RRHeKtw/edit?usp=sharing
@@ -31,6 +38,9 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 
 5. Go to https://api.slack.com/apps and create a new app. Set an app name, description, color, and icon (use __airwatch_square.png__ in the __Images__ folder if you'd like)
 
+![create_slack_app](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/create_slack_app.png)
+
+<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/airwatch_square.png" alt="airwatch_icon" width="72">
 
 6. Add `users:read` and `users:write` to the Bot Token Scopes (__OAuth & Permissions__ > __Scopes__ > __Bot Token Scopes__ > __Add an OAuth Scope__)
 
