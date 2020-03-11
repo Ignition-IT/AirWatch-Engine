@@ -1,8 +1,9 @@
 # AirWatch-Engine
 Slack bot to control AirWatch via API. Current function includes changing the enrollment user on any computer.
 
-<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/app_home.png" alt="App Home" width="300">
 ![App Home](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/app_home.png?raw=true)
+
+![Example Data](https://github.com/Ignition-IT/Accelo-Metrics/blob/master/example_data.png?raw=true)
 
 ## SETUP: ##
 
