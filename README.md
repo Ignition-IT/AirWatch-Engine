@@ -14,10 +14,10 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 	+ __Who has access to the app:__ _Anyone, even anonymous_
 
 
-	---
+	\n
 	<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/deploy_as_web_app.png" alt="deploy_as_web_app">
 
-	<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/set_web_app_options.png" alt="set_web_app_options" width="300">
+	<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/set_web_app_options.png" alt="set_web_app_options" width="400">
 
 
 3. Copy the web app URL and paste it into the `//URL` comment at the top of __1. Handler.gs__ for later use
