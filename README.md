@@ -11,15 +11,12 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 2. Open the Script Editor (__Tools__ > __Script Editor__) and deploy the project as a web app (__Publish__ > __Deploy as web app...__)
 	+ __Project version:__ _New_
 	+ __Execute the app as:__ _Me_
-	+ __Who has access to the app:__ _Anyone, even anonymous_  
+	+ __Who has access to the app:__ _Anyone, even anonymous_
+  
 
+<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/deploy_as_web_app.png" alt="deploy_as_web_app">  
 
-
-
-	<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/deploy_as_web_app.png" alt="deploy_as_web_app">  
-	  
-
-	<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/set_web_app_options.png" alt="set_web_app_options" width="400">
+<img src="https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/set_web_app_options.png" alt="set_web_app_options" width="300">
 
 
 3. Copy the web app URL and paste it into the `//URL` comment at the top of __1. Handler.gs__ for later use
