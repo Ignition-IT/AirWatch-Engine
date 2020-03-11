@@ -78,7 +78,7 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 ![events_request_url](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/events_request_url.png)
 
 
-13. Open the __Subscribe to bot events__ section and add __app_home_opened__. Click __Save Changes__
+13. Open the __Subscribe to bot events__ section and add `app_home_opened`. Click __Save Changes__
 
 ![subscribe_to_bot_events](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/subscribe_to_bot_events.png)
 
