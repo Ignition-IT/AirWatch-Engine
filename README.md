@@ -1,4 +1,4 @@
-# AirWatch-Engine
+# Ignition AirWatch-Engine
 Slack bot to control AirWatch via API. Current function includes changing the enrollment user on any computer.
 
 ![app_home](https://github.com/Ignition-IT/AirWatch-Engine/blob/master/Images/app_home.png)
@@ -127,4 +127,5 @@ Slack bot to control AirWatch via API. Current function includes changing the en
 ## Notes: ##
 To turn on logging, set `var logging = true;` in __99. Logger.gs__. I have various `log()` functions scattered around the code currently. Due to the speed limitations of writing logs to Google Sheets, having too many logging entries can slow the script down to the point where it extends past the strict time limitations Slack has on it's API response requirements. Comment out any `log()` entries you don't need.
 
-Also I'd just like to mention that I'm very inexperienced with JS (and coding in general), if any part of this code sucks, please let me know!
+Created by Ella for Ignition, Inc., a California corporation
+https://www.ignitionit.net
